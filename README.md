@@ -1,5 +1,8 @@
 # 🏆 This repository is part of the Open Source 101 organised by ISTE HIT SC
 
+## 🚀 Project Link:
+    Frontend:- 🔗 comment-sense-nine.vercel.app 
+    Backend Server:-  🔗 https://commentsense-api.onrender.com
 # CommentSense
 
 CommentSense is an API-based comment moderation and chat segregation system designed to analyze, classify, and flag public comments or chat messages on social platforms.
@@ -35,7 +38,7 @@ CommentSense addresses this problem by offering a backend moderation service tha
 - An API that social platforms can integrate
 - A decision-support system for content moderation
 
-### What It Is Not
+## What It Is Not
 - A social media scraper
 - A browser extension
 - A manual comment-checking website
@@ -57,7 +60,7 @@ CommentSense does not enforce actions. It only provides classification and recom
 
 ## API Overview
 
-### POST `/v1/analyze`
+## POST `/v1/analyze`
 
 Analyzes a comment and returns moderation insights.
 
@@ -81,9 +84,9 @@ Example request:
 
 GET /v1/health
 "Health check endpoint to verify API availability."
+---
 
-
-## "Project Structure:"
+## Project Structure:
     CommentSense/
     ├── server/
     │   ├── server.js
@@ -113,28 +116,28 @@ GET /v1/health
  • npm (comes with Node.js)
  • A web browser (Chrome recommended)
 # "Verify installation:"
-    node -v
-    npm -v
+    "node -v"
+    "npm -v"
 
-## "Steps to Run"
+## Steps to Run:
 • Clone the repository:
-    git clone https://github.com/<your-username>/CommentSense.git
-    cd CommentSense
+    "git clone https://github.com/<your-username>/CommentSense.git"
+    "cd CommentSense"
 • Install dependencies:
-    npm install
+    "npm install"
 
 
 • Start the backend server:
-    node server/server.js
+    "node server/server.js"
 
 
 • If successful, you will see:
-    CommentSense API running on http://localhost:3000
+    "CommentSense API running on http://localhost:3000"
 
 • Keep this terminal running.
 
 • Verify backend (optional):
-    http://localhost:3000/v1/health
+    "http://localhost:3000/v1/health"
 
 
 • Open the frontend demo:

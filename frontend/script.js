@@ -28,6 +28,7 @@ analyzeBtn.addEventListener("click", async () => {
     );
 
     const data = await response.json();
+
     resultBox.classList.remove("hidden");
     resultContent.textContent = JSON.stringify(data, null, 2);
 
